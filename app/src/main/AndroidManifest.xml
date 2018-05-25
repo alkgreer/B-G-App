@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bbj2012.bgspringfield">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DetailActivity"
+            android:label="@string/title_activity_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StaffAdaActivity"
+            android:label="@string/title_activity_staff_ada"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TechLabActivity"
+            android:label="@string/title_activity_tech_lab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ParentActivity"
+            android:label="@string/title_activity_parent"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LearningActivity"
+            android:label="@string/title_activity_learning"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GymActivity"
+            android:label="@string/title_activity_gym"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MusicActivity"
+            android:label="@string/title_activity_music"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ArtActivity"
+            android:label="@string/title_activity_art"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PreTActivity"
+            android:label="@string/title_activity_pre_t"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GamesActivity"
+            android:label="@string/title_activity_games"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

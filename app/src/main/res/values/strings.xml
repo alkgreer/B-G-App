@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">B&amp;G Springfield</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="parents_button">Parents</string>
+    <string name="staffs_button">Staff</string>
+    <string name="title_activity_staff_ada">StaffAdaActivity</string>
+    <string name="ada_editText">Enter a new item</string>
+    <string name="ada_Button">Add item</string>
+    <string name="title_activity_tech_lab">TechLabActivity</string>
+    <string name="Area"></string>
+    <string-array name="BG_Areas">
+        <item>Tech Lab</item>
+        <item>Learning Center</item>
+        <item>Pre-Teen Center</item>
+        <item>Games Room</item>
+        <item>Music Room</item>
+        <item>Gym</item>
+    </string-array>
+    <string name="title_activity_parent">ParentActivity</string>
+    <string name="title_activity_learning">LearningActivity</string>
+    <string name="title_activity_gym">GymActivity</string>
+    <string name="title_activity_music">MusicActivity</string>
+    <string name="title_activity_art">ArtActivity</string>
+    <string name="title_activity_pre_t">PreTActivity</string>
+    <string name="title_activity_games">GamesActivity</string>
+
+</resources>
